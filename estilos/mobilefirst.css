@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root{
+    --principal: #FB5607;
+    --secundaria: #0E080E;
+    --roxinho: #5E239D;
+    --contraste: #87C38F;
+    --branco: #F4F0BB;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        background-image: url(../img/banner-imbr01.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 380px;
+    }
+    a{
+        font-family: monospace;
+        font-weight: bolder;
+        position: absolute;
+        background-color: rgba(251, 84, 7, 0.85);
+        color: var(--secundaria);
+        text-decoration: none;
+        padding: 4px;
+        border-radius: 8px;
+        top: 40px;
+    }
+    #link1{
+        right: 110px;
+    }
+    #link2{
+        right: 25px;
+    }
+}

@@ -11,26 +11,31 @@
     --secundaria: #0E080E;
     --roxinho: #5E239D;
     --contraste: #87C38F;
-    --branco: #F4F0BB;
+    --branco: #e8e4ad;
 }
 
 @media screen and (max-width: 768px) {
+    body{
+        background-color: var(--contraste);
+    }
     header{
         background-image: url(../img/banner-imbr01.jpeg);
+        background-position: center top;
         background-size: contain;
         background-repeat: no-repeat;
         width: 100vw;
-        height: 380px;
+        height: 260px;
     }
     a{
         font-family: monospace;
         font-weight: bolder;
         position: absolute;
         background-color: rgba(251, 84, 7, 0.85);
-        color: var(--secundaria);
+        color: var(--contraste);
+        text-shadow: 2px 3px 3px var(--roxinho);
         text-decoration: none;
-        padding: 4px;
-        border-radius: 8px;
+        padding: 6px;
+        border-radius: 6px;
         top: 40px;
     }
     #link1{
@@ -41,19 +46,27 @@
     }
 
     main{
-        background-color: var(--contraste);
-        
-        
-        max-width: 630px;
-        
+        background-color: var(--branco);
+        max-width: 480px;
+        margin: auto;
     }
     h2{
         text-align: center;
-        margin-bottom: 30px;
-
+        font-size: 1.5em;
+        padding-top: 9px;
+        margin-bottom: 17px;
+        text-shadow: 2px 2px 3px rgba(94, 35, 157, 0.8);
     }
-
-
+    p{
+        text-align: justify;
+        text-indent: 15px;
+        margin-bottom: 15px;
+        line-height: 20px;
+    }
+    ol{
+        
+        text-indent: 30px;
+    }
 
 
 

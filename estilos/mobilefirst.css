@@ -11,7 +11,7 @@
     --secundaria: #0E080E;
     --roxinho: #5E239D;
     --contraste: #87C38F;
-    --branco: #e8e4ad;
+    --branco: #f2eeb8;
 }
 
 @media screen and (max-width: 768px) {
@@ -24,7 +24,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         width: 100vw;
-        height: 235px;
+        height: 215px;
     }
     a{
         font-family: monospace;

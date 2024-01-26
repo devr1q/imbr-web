@@ -67,6 +67,7 @@
         font-weight: bolder;
     }
     ol{
+        list-style-type: none;
         list-style-position: inside;
         line-height: 40px;
         text-indent: 20px;

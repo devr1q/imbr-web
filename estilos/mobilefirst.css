@@ -24,7 +24,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         width: 100vw;
-        height: 255px;
+        height: 235px;
     }
     a{
         font-family: monospace;
@@ -47,7 +47,7 @@
 
     main{
         background-color: var(--branco);
-        max-width: 490px;
+        max-width: 470px;
         margin: auto;
     }
     h2{
@@ -58,7 +58,6 @@
         text-shadow: 2px 2px 3px rgba(94, 35, 157, 0.8);
     }
     p{
-        font-size: 1em;
         text-align: justify;
         text-indent: 10px;
         margin-bottom: 15px;

@@ -26,24 +26,6 @@
         width: 100vw;
         height: 210px;
     }
-    a{
-        font-family: monospace;
-        font-weight: bolder;
-        position: absolute;
-        background-color: rgba(251, 84, 7, 0.85);
-        color: var(--contraste);
-        text-shadow: 2px 3px 3px var(--roxinho);
-        text-decoration: none;
-        padding: 6px;
-        border-radius: 6px;
-        top: 30px;
-    }
-    #link1{
-        right: 105px;
-    }
-    #link2{
-        right: 20px;
-    }
 
     main{
         background-color: var(--branco);

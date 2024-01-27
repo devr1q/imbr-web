@@ -24,7 +24,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         width: 100vw;
-        height: 220px;
+        height: 210px;
     }
     a{
         font-family: monospace;
@@ -61,8 +61,13 @@
         text-align: justify;
         text-indent: 10px;
         padding: 8px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         line-height: 20px;
+    }
+    .efeito{
+        text-shadow: 1px 1px 2px var(--principal);
+        font-size: 0.9em;
+        text-align: center;
     }
     #unico{
         font-weight: bolder;

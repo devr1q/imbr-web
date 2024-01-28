@@ -26,6 +26,34 @@
         width: 100vw;
         height: 210px;
     }
+    .menu-btn > img{
+        display: block;
+        width: 45px;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 40px;
+    }
+
+
+    .menu-Options{
+        display: none;
+        width: 30px;
+        position: absolute;
+        top: 50px;
+        right: 53px;
+    }
+    .menu-option > img{
+        width: 45px;
+        height: 45px;
+    }
+    .menu-option{
+        width: 40px;
+        margin-top: 10px;
+    }
+
+
+
 
     main{
         background-color: var(--branco);
@@ -46,7 +74,7 @@
         margin-bottom: 10px;
         line-height: 20px;
     }
-    .efeito{
+    p.efeito{
         text-shadow: 1px 1px 2px var(--principal);
         font-size: 0.9em;
         text-align: center;

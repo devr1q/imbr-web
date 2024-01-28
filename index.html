@@ -9,13 +9,28 @@
 </head>
 <body>
     <header>
+        
+        <div class="menu-btn" id="menuBtn">
+            <img src="img/logo-home.jpg" alt="menu">
+        </div>
+        <div class="menu-Options" id="menuOptions">
+            <div class="menu-option">
+                <img src="img/logo-instagram.jpg" alt="logo-instagram">
+            </div>
+            <div class="menu-option">
+                <img src="img/logo-facebook.jpg" alt="logo-facebook">
+            </div>
+        </div>
+
+
+
+
+
         <menu>
-            <ul>
-                <li><a id="link1" href="https://www.instagram.com/metodistabetel_realengo/">instagram</a></li>
-                <li><a id="link2" href="https://www.facebook.com/metodistabetelrealengo/">Facebook</a></li>
-            </ul>
+            
         </menu>
     </header>
+        
     <main>
         <h2>IGREJA  METODISTA BETEL REALENGO</h2>
 
@@ -42,5 +57,22 @@
         
     </main>
 
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+
+        var menuBtn = document.getElementById("menuBtn");
+        var menuOptions = document.getElementById("menuOptions");
+
+        menuBtn.addEventListener("click", function () {
+            if (menuOptions.style.display === "none") {
+                menuOptions.style.display = "block";
+            } else {
+                menuOptions.style.display = "none";
+            }
+        });
+    });
+    </script>
 </body>
 </html>
